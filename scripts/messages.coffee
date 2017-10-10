@@ -18,3 +18,6 @@ module.exports = (robot) ->
 
   robot.respond /lunch/gim, (res) ->
     res.send " > I want a peanut butter and jelly sandwich for lunch today."
+    
+  robot.respond /test1/gim, (res) ->
+    res.send "testresponse"
