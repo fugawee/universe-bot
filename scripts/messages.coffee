@@ -22,5 +22,5 @@ module.exports = (robot) ->
   robot.respond /test1/gim, (res) ->
     res.send "testresponse"
 
-  robot.hear /heroku/gim, (res) ->
+  robot.hear / heroku/gim, (res) ->
     res.send " > I am running from Heroku!"
